@@ -91,3 +91,156 @@ body{
         margin: 30px;
     }
 }
+/* Base styles (for larger screens) */
+
+/* .lo class */
+.lo {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+/* body styles */
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .tt1 class */
+.tt1 {
+    float: right;
+    margin-top: 35px;
+    margin-inline: 10px;
+    padding-inline: 10px;
+}
+
+.tt1 a {
+    margin-inline: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: italic;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+/* .like class */
+.like {
+    margin: 80px;
+    margin-bottom: 70px;
+    margin-top: 90px;
+    margin-right: 2px;
+    position: relative;
+}
+
+.like h1 {
+    color: darkblue;
+    margin-left: 50px;
+    margin-top: 15px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.like h2 {
+    color: white;
+    margin-left: 50px;
+    font-size: xx-large;
+    position: relative;
+    bottom: 5px;
+}
+
+.like p {
+    width: 700px;
+    color: whitesmoke;
+    background-color: black;
+    border: 3px solid purple;
+    border-radius: 20px;
+    margin: 5px;
+    margin-top: 80px;
+    padding: 10px;
+    font-size: large;
+    display: inline-block;
+}
+
+/* .ig class */
+.ig img {
+    float: right;
+    position: relative;
+    right: 55px;
+    bottom: 280px;
+    border: 3px solid rgb(39, 5, 39);
+    border-radius: 50px;
+}
+
+/* .bg class */
+.bg {
+    position: relative;
+}
+
+.bg img {
+    position: relative;
+    top: 150px;
+    left: 150px;
+    padding: 10px;
+    margin: 30px;
+}
+
+/* Media queries for mobile screens */
+
+/* Mobile screens */
+@media (max-width: 600px) {
+    .tt1 {
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .tt1 a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .like {
+        margin: 20px;
+        margin-top: 30px;
+    }
+
+    .like h1 {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: large;
+    }
+
+    .like h2 {
+        margin-left: 0;
+        font-size: large;
+    }
+
+    .like p {
+        width: 100%;
+        font-size: medium;
+        margin-top: 20px;
+    }
+
+    .ig img {
+        float: none;
+        width: 100%;
+        margin: 0;
+        position: static;
+    }
+
+    .bg img {
+        top: 0;
+        left: 0;
+        margin: 10px;
+        width: 100%;
+        height: auto;
+    }
+}
