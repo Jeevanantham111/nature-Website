@@ -1,0 +1,41 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    
+}
+.h1{
+    position: relative;
+    left: 460px;
+    bottom: 30px;
+    display: inline-block;
+    color:white;
+}
+.img2{ 
+    
+    .h2{
+        color: rgb(254, 253, 255);
+        margin-left: 20px;
+        font-weight: 800;
+        font-style: italic;
+        font-family: sans-serif ;
+       
+    }
+    }
+    .img3{
+        display: block;
+        img{
+            position: relative;
+            left: 1150px;
+            top: 50px;
+            border: 1px solid black;
+            border-radius: 55px;
+        }
+.h3{
+    color: rgb(231, 239, 239);
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+    }
