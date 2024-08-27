@@ -79,3 +79,8 @@ h5{
     margin-bottom: 100px;
     
 }}
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
